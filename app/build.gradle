@@ -32,6 +32,10 @@ android {
     buildFeatures {
         viewBinding true
     }
+    dependencies {
+        //val fragment_version = "1.5.4"
+        implementation("androidx.fragment:fragment-ktx:1.5.4")
+    }
 }
 
 dependencies {
